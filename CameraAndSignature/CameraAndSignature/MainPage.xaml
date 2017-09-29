@@ -4,8 +4,9 @@
              xmlns:local="clr-namespace:CameraAndSignature"
              x:Class="CameraAndSignature.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout>
+        <Button x:Name="CameraPageButton" Text="Camera Page"/>
+        <Button x:Name="SignaturePageButton" Text="Signature Page"/>
+    </StackLayout>
 
 </ContentPage>

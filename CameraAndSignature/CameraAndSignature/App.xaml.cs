@@ -13,7 +13,7 @@ namespace CameraAndSignature
 		{
 			InitializeComponent();
 
-			MainPage = new CameraAndSignature.MainPage();
+			MainPage = new NavigationPage(new CameraAndSignature.MainPage());
 		}
 
 		protected override void OnStart ()

@@ -95,7 +95,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\CameraPreview.cs" />
+    <Compile Include="Controls\SignatureView.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Renderers\CameraPreviewRenderer.cs" />
+    <Compile Include="Renderers\SignatureImageRenderer.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
